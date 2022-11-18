@@ -4,17 +4,19 @@
     margin: 0;
 }
 
+/*Background color for webpage outside of header element*/
+
 body {
     background-color: #d9dcd6;
 }
 
-/**/
+/*Text specification for all text outside headers and footers*/
 
 p {
     font-size: 16px;
 }
 
-/*Style elements for entirety of header at top of the web page*/
+/*Style elements for entirety of header at top of the web page body*/
 
 header {
     padding: 20px;
@@ -53,20 +55,23 @@ a {
 /*Style elements for header end here*/
 
 
-
+/*Large photo of digital marketing meeting is entirety of <figure>*/
 /*Bottom margin for photo of digital marketing meeting*/
+
 
 figure {  
     margin-bottom: 25px;    
 }
 
-/*Style and formatting for three large rectangles detailing services provided*/
+/*Style and formatting for section with three large rectangles detailing services provided*/
 
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/*Style and fotmatting for articles themselves, the blue rectangles and content within*/
 
 .service-provided {
     margin-bottom: 20px;
@@ -86,6 +91,7 @@ section {
     font-size: 36px;
 }
 
+/*Alternating float attributes for alternating photos in articles*/
 
 .float-left {
     float: left;
@@ -110,6 +116,8 @@ aside {
     background-color: #2589bd;
 }
 
+/*Common style and formatting attributes for each article element within the aside*/
+
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -125,6 +133,8 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*Style and formatting attributes for footer at bottom of page, below the main part of body*/
 
 footer {
     padding: 30px;
